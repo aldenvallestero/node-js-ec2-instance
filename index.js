@@ -7,5 +7,5 @@ app.get('/', (req, res) => {
     })
 });
 
-const PORT = 80 || process.env.PORT;
+const PORT = 8080 || process.env.PORT;
 app.listen(PORT, () => console.log('Started running on port', PORT));
